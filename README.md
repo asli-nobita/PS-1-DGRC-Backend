@@ -24,7 +24,7 @@
 1. **Clone the repo:**
 
 ```bash
-git clone https://github.com/codingfreshie/DGRC.git
+git clone https://github.com/asli-nobita/PS-1-DGRC-Backend.git
 cd DGRC
 ```
 
@@ -51,7 +51,8 @@ dotnet ef database update
 
 4. **Run the project:**
 
-```bash
+```bash 
+dotnet build  
 dotnet run
 ```
 
@@ -62,31 +63,11 @@ Navigate to:
 
 ---
 
-##  Project Structure
-
-```
-├── Controllers/
-│   ├── RegisterController.cs
-│   └── LoginController.cs
-├── DTOs/
-│   ├── RegisterRequest.cs
-│   └── LoginRequest.cs
-├── Models/
-│   └── User.cs
-├── Data/
-│   └── ApplicationDbContext.cs
-├── Migrations/
-├── appsettings.json
-├── Program.cs
-└── .gitignore
-```
-
----
 
 ##  Adding a New Controller
 
 1. **Create the DTO if needed**  
-   Add a new file in `DTOs/`, e.g., `MyFeatureRequest.cs`
+   Add a new file in `Models/`, e.g., `MyFeatureRequest.cs`
 
 2. **Create the controller:**  
    Add a new class in `Controllers/`, e.g., `MyFeatureController.cs`
