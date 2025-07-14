@@ -1,0 +1,6 @@
+@DGRC_HostAddress = http://localhost:5227
+
+GET {{DGRC_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

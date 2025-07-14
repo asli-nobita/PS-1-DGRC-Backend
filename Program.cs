@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using PS_1_Backend.Data;
+using DGRC.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -31,7 +31,7 @@ app.MapControllers();
 
 app.Run();
 //using Microsoft.EntityFrameworkCore;
-//using PS_1_Backend.Data;
+//using DGRC.Data;
 
 //var builder = WebApplication.CreateBuilder(args);
 

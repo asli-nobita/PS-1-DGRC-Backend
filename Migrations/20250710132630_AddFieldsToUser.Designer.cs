@@ -4,11 +4,11 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using PS_1_Backend.Data;
+using DGRC.Data;
 
 #nullable disable
 
-namespace PS_1_Backend.Migrations
+namespace DGRC.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     [Migration("20250710132630_AddFieldsToUser")]
@@ -24,7 +24,7 @@ namespace PS_1_Backend.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("PS_1_Backend.Models.User", b =>
+            modelBuilder.Entity("DGRC.Models.User", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()

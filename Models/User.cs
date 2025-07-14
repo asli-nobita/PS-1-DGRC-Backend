@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace PS_1_Backend.Models;
+namespace DGRC.Models;
 
 public class User
 {

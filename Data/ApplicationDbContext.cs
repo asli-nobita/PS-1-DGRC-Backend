@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using PS_1_Backend.Models;
+using DGRC.Models;
 
-namespace PS_1_Backend.Data
+namespace DGRC.Data
 {
     public class ApplicationDbContext : DbContext
     {

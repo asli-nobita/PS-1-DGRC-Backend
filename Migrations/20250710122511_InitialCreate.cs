@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace PS_1_Backend.Migrations
+namespace DGRC.Migrations
 {
     /// <inheritdoc />
     public partial class InitialCreate : Migration

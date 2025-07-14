@@ -1,4 +1,4 @@
-namespace PS_1_Backend
+namespace DGRC
 {
     public class WeatherForecast
     {

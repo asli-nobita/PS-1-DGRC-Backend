@@ -24,8 +24,8 @@
 1. **Clone the repo:**
 
 ```bash
-git clone https://github.com/codingfreshie/PS_1_Backend.git
-cd PS_1_Backend
+git clone https://github.com/codingfreshie/DGRC.git
+cd DGRC
 ```
 
 2. **Update connection string:**

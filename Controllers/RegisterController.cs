@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using PS_1_Backend.Data;
-using PS_1_Backend.Models;
-using PS_1_Backend.DTOs;
+using DGRC.Data;
+using DGRC.Models; 
 
 
 namespace UserAuthAPI.Controllers;
@@ -27,7 +26,7 @@ public class RegisterController(ApplicationDbContext context) : ControllerBase
             FullName = request.FullName,
             Email = request.Email,
             Password = request.Password,
-            PhoneNumber = request.PhoneNumber
+            PhoneNumber = request.MobileNumber
         };
 
         _context.Users.Add(user);

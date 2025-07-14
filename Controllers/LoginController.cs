@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using PS_1_Backend.Data;
-using PS_1_Backend.DTOs;
+using DGRC.Data; 
+using DGRC.Models;
 
-namespace PS_1_Backend.Controllers;
+namespace DGRC.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
